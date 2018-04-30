@@ -1,0 +1,5 @@
+data in output40000.csv contains 40000 data about solved bridge deals
+
+Columns 1-16 contain description of the hands of each player. Each suit in each hand is encoded in binary (16384 is an Ace, 8192 is a King etc.)
+Columns 17-37 contain the largest possible number of tricks that can be taken by a given player if the given suit is the trup (assuming optimal play of all the players)
+Column 38 contains the minimax score of the deal
